@@ -224,7 +224,7 @@ def do_upload():
             return {'get_url':  app.get_url, 'success': 'true', 'data': json.dumps(val['data']), 'data_fail': ''}
         else:
             return {'get_url':  app.get_url, 'success': 'false', 'data_fail': val['data'], 'data': ''}
-    except Exception err:
+    except (Exception, err):
         return {'get_url':  app.get_url, 'success': 'false', 'data_fail': traceback.format_exc(), 'data': ''}
 
 
