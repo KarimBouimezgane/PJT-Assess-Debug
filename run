@@ -2,7 +2,7 @@
 
 cd /home/asses/public_html/asses/
 
-(python website.py local 1>/tmp/assess.log 2>&1)&
+(python 2to3 website.py local 1>/tmp/assess.log 2>&1)&
 
 echo $?
 
