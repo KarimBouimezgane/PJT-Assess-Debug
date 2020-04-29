@@ -26,8 +26,8 @@ def regressions(liste_cord, dictionnaire={}):
     # creation des valeurs en abscisses et en ordonnee avec les listes lx et ly
     x = np.array(lx)
     y = np.array(ly)
-    x=map(float,x)
-    y=map(float,y)
+    x=list(map(float,x))
+    y=list(map(float,y))
     x_test = np.linspace(x[-1], x[-2])
 
     if y[-1] == 1:
@@ -263,4 +263,4 @@ def multipoints(liste_cord):
     return {"data": liste_dictionnaires}
 
 
-print regressions([[70,0.7],[80,0.8],[90,0.9],[50,0.0],[100,1.0]],False)
+print(regressions([[70,0.7],[80,0.8],[90,0.9],[50,0.0],[100,1.0]],False))
