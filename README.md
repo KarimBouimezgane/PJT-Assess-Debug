@@ -17,7 +17,7 @@ mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-indent:36.0pt'><span style='font-size:11.5pt;
 font-family:Arial;mso-bidi-font-family:"Times New Roman";color:black'>Télécharger
-Python 2.7.10</span><span style='font-size:10.0pt;font-family:Times;mso-bidi-font-family:
+Python 3.7.10</span><span style='font-size:10.0pt;font-family:Times;mso-bidi-font-family:
 "Times New Roman"'><a href="https://www.python.org/downloads/"><span
 style='font-size:11.5pt;font-family:Arial;mso-bidi-font-family:"Times New Roman";
 color:black'> </span><span style='font-size:11.5pt;font-family:Arial;
